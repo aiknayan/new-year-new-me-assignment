@@ -1,0 +1,238 @@
+.heading-text {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.second-header {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Header */
+.section-banner {
+    height: 100vh;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.banner-container {
+    padding: 0 230px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 24px;
+}
+
+.banner-text {
+    width: 494px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.button {
+    padding: 20px 26px;
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Green tick colorize */
+span {
+    color: #00d26a;
+}
+
+/* Content Section */
+.section-content {
+    padding: 132px 210px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-texts {
+    width: 416px;
+    height: 400px;
+}
+
+.text {
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.content-lists {
+    list-style: none;
+}
+
+.list {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* Plan * Mission Section */
+.section-plan {
+    padding: 0 130px 130px;
+}
+
+.plan-container {
+    text-align: center;
+}
+
+.plan-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plan-img {
+    margin-bottom: 18px;
+}
+
+.plan-text {
+    font-weight: 500;
+    color: #737272;
+    font-size: 25px;
+}
+
+/* Call Section */
+.section-call {
+    padding: 0 230px 130px;
+}
+
+.call-container {
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #005FAC 0%, #005fac00 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.call-content {
+    padding: 60px 64px;
+}
+
+.call-heading {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.call-email {
+    margin-bottom: 16px;
+}
+
+.call-phone {
+    margin-bottom: 32px;
+}
+
+
+/* Footer section */
+.section-footer {
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 485px;
+}
+
+.footer-header {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+
+
+.icons {
+    display: flex;
+    gap: 18px;
+}
+
+.form-heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+
+input::placeholder {
+    color: white;
+    opacity: 0.9;
+    font-weight: 400px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=email] {
+    padding: 22px 158px 22px 22px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    width: 172px;
+    padding: 20px 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #005FAC;
+    border-radius: 8px;
+}
